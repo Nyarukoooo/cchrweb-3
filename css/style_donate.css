@@ -1,0 +1,28 @@
+br {
+	margin: 15px 0;
+}
+.goodwings__logo {
+	width: 400px;
+}
+
+/*--------Support-1--------*/
+.support__1 {
+	background-image: url("../img/give2asia.png");
+	background-color: rgb(215, 221, 243);
+	background-size: 20% auto !important;
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: cover;
+}
+
+/*--------Support-2--------*/
+.support__2 {
+	color: #fff;
+	background-image: url("../img/donate_headerbg.jpg");
+	background-size: 100% 100% !important;
+	background-repeat: no-repeat;
+	background-size: contain;
+	object-fit: cover;
+	background-position: center;
+
+}

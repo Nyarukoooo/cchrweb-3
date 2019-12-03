@@ -1,0 +1,490 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 1000px;
+  }
+}
+
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 650px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #1c2331 !important;
+  }
+}
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.top-nav-collapse {
+  background-color: rgb(111,111,111,0.9);
+}
+
+
+/* Adding color to the Navbar on mobile */
+@media only screen and (max-width: 768px) {
+  .navbar {
+    background-color: #1c2331;
+  }
+}
+
+/* Footer color for sake of consistency with Navbar */
+.page-footer {
+  background-color: #1c2331;
+}
+
+/*-----------New Style----------*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fbfcff;
+}
+
+.btn_rounded {
+  border-radius: 10em;
+}
+
+.title {
+  background-color: rgb(82, 134, 237); /* Green */
+  border: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10em;
+}
+
+
+/*-----------Nav----------*/
+/*---------HotLine--------*/
+
+/*.text-color {
+  color:
+}
+.topline {
+  
+}
+.topline ul{
+  float: right;
+  list-style-type: none;
+  margin: 0 15px 0 0;
+  padding: 0;
+  overflow: hidden;
+}
+.topline ul li {
+  float: left;
+  margin-left: 5px;
+}*/
+
+
+/*Brand*/
+.cchrlogo {
+  width: 240px;
+  height: 80px;
+}
+
+/*Make navbar dropdown transparent*/
+nav .dropdown-menu {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+nav .dropdown-item {
+  color: #ffffff !important;
+}
+
+nav .dropdown-item:hover {
+  color: black !important;
+}
+
+nav li {
+  width: auto;
+}
+
+/* Search bar postion adjust*/
+.search__bar {
+  padding-top: 5px !important;
+}
+
+/*-----------Our Work----------*/
+.carousel_wxs {
+  position: relative;
+  height: 600px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.carousel__image {
+  width: 100%;
+  height: 70%;
+  margin: auto;
+  object-fit: cover;
+}
+
+.carousel__text {
+  margin: auto;
+}
+
+.carousel__track-container {
+  margin: 0;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel__track {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.carousel__slide {
+  background: #fbfcff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  width: 100%;
+}
+
+.carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.carousel__button--left {
+  left: -40px;
+}
+
+.carousel__button--right {
+  right: -40px;
+}
+
+.carousel__nav {
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.carousel__indicator {
+  border: 0;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  background: rgba(0,0,0,.3);
+  margin: 0 15px;
+  cursor: pointer;
+}
+
+.carousel__indicator.current__slide {
+  background: rgba(0,0,0,.75)
+}
+
+/*-----------Our Vision----------*/
+.our__vision {
+  background-image: url("../img/peace.jpg");
+  background-color: rgb(247, 247, 247);
+  background-size: 30% auto !important;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+}
+
+
+/*-----------Our Value----------*/
+.value__img {
+  width: 40px;
+}
+
+
+
+/*-----------Social Channels----------*/
+.channels__icon {
+  width: 40px;
+  height: 40px;
+}
+
+/*-----------About Us----------*/
+.about__us {
+  background-image: url("../img/flag_photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about__text {
+  background: #fff; 
+}
+
+/*-----------Publication----------*/
+.card-img-top {
+  width: 100%;
+  height: 18vw;
+  object-fit: cover;
+}
+
+/*-----------Partner----------*/
+.partner__logo {
+  width: 200px;
+}
+
+.civicus_logo {
+  height: 100px;
+}
+
+/*-----------Map----------*/
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+/*-----------Footer----------*/
+footer li {
+  margin-bottom: 10px;
+}
+
+footer li a:hover {
+  color: blue;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+/*responsive*/
+@media only screen and (max-width: 420px) {
+  h1 {
+    font-size: 30px !important;
+  }
+  h2 {
+    font-size: 24px !important;
+  }
+  h4 {
+    font-size: 12px !important;
+  }
+  h3,
+  p {
+    font-size: 14px !important;
+  }
+  footer h5 {
+    margin: 0 auto !important;
+  }
+  .cchrlogo {
+    width: 240px;
+    height: 70px;
+  }
+  .navbar-brand {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1440px) {
+  h1 {
+    font-size: 62px !important;
+    line-height: 70px;
+    font-weight: bold;
+    color: #fff;
+  }
+  h2 {
+    font-size: 39px !important;
+    line-height: 48px;
+    font-weight: bold;
+    color: #070707;
+  }
+  h4 {
+    font-size: 21px !important;
+    line-height: 32px;
+    font-weight: bold;
+    color: #070707;
+  }
+  h3 {
+    font-size: 14px !important;
+    line-height: 21px;
+    font-weight: bold;
+    color: #3b5998;
+  }
+  h5 {
+    font-size: 18px !important;
+    line-height: 32px;
+    color: #707070;
+  }
+  p {
+    font-size: 16px !important;
+    line-height: 28px;
+    color: #707070;
+  }
+  nav ul li a {
+    font-size: 14px !important;
+    color: #707070;
+  }
+}
+
+@media (min-width: 300px) { 
+.carousel_wxs {
+  height: 1000px;
+}
+@media (min-width: 768px) {  
+.carousel_wxs {
+  height: 800px;
+}
+@media (min-width: 992px) { 
+.carousel_wxs {
+  height: 600px;
+
+}
+@media (min-width: 1200px) { 
+.carousel_wxs {
+    height: 600px;
+}
+
+/*Hover Effect*/
+/* Grow */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+/* Pulse */
+@-webkit-keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+@keyframes hvr-pulse {
+  25% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+  75% {
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+  }
+}
+.hvr-pulse {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-pulse:hover,
+.hvr-pulse:focus,
+.hvr-pulse:active {
+  -webkit-animation-name: hvr-pulse;
+  animation-name: hvr-pulse;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+/* Icon Up */
+@-webkit-keyframes hvr-icon-up {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25%,
+  75% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+@keyframes hvr-icon-up {
+  0%,
+  50%,
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25%,
+  75% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+}
+/* Icon Up */
+.hvr-icon-up {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-icon-up .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-up:hover .hvr-icon,
+.hvr-icon-up:focus .hvr-icon,
+.hvr-icon-up:active .hvr-icon {
+  -webkit-animation-name: hvr-icon-up;
+  animation-name: hvr-icon-up;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+
+
+
+
+
+

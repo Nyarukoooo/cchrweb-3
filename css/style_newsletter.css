@@ -1,0 +1,11 @@
+.picture_container {
+	position: relative;
+	height: 200px;
+	width: 100%;
+}
+
+.picture{
+	width: 70%;
+	height: 70%;
+	object-fit: cover;
+}
